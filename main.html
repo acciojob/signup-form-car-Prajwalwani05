@@ -12,15 +12,19 @@
 		<input type="text" placeholder="Name" name="name" id="#name" required>
 		<label for="email">Email*</label>
 		<input type="email" placeholder="Email" name="email" id="#email" required>
-		<label for="gender">Gender*</label>
-		 Male<input type="radio" name="gender" id="#gender_m" required>
-		Female<input type="radio" name="gender" id="#gender_f" required>
+		<div>
+                <label for="gender">Gender*</label>
+                <label for="male">Male</label>
+                <input type="radio" id="#gender_m" name="gender" required>
+                <label for="female">Female</label>
+                <input type="radio" id="#gender_f" name="gender">
+            </div>
 		<label for="cars">Car Brands*</label>
-		<select  id="#cars" name="cars" required>
+		<select  id="#cars" name="#cars" required>
 <!-- 			<option value="" selected disabled>--Please choose an option--</option> -->
-			<option value="bmw">BMW</option>
-			<option value="audi">Audi</option>
-			<option value="mercedez">Mercedez</option>
+			<option value="bmw" id="#cars">BMW</option>
+			<option value="audi" id="#cars">Audi</option>
+			<option value="mercedez" id="#cars">Mercedez</option>
 		</select>
 		<label for="age">Age*</label>
 		<input type="tel" placeholder="Age" name="age" id="#age" required>
